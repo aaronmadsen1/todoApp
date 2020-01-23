@@ -12,6 +12,7 @@ import {
 import Header from "./components/header"
 import TodoItem from "./components/todoItem"
 import AddTodo from "./components/addTodo"
+import Sandbox from "./components/sandbox"
 
 export default function App() {
   const [todos, setTodos] = useState([
@@ -40,6 +41,8 @@ export default function App() {
   }
 
   return (
+    // <Sandbox />
+
     <TouchableWithoutFeedback
       onPress={() => {
         Keyboard.dismiss()
@@ -70,10 +73,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff"
   },
   content: {
-    padding: 40
+    padding: 40,
+    // backgroundColor: "#999",
+    flex: 1
   },
   list: {
-    marginTop: 20
+    marginTop: 20,
+    // backgroundColor: "#888",
+    flex: 1
   }
 })
 
@@ -82,3 +89,4 @@ const styles = StyleSheet.create({
 // React Native Tutorial #11 - Todo App (part 3)        https://www.youtube.com/watch?v=LH_SoXiu_Hk
 // React Native Tutorial #12 - Alerts                   https://www.youtube.com/watch?v=oVA9JgTTiT0&t=4s
 // React Native Tutorial #13 - Dismissing the Keyboard  https://www.youtube.com/watch?v=IW-SEiRjUsI
+// React Native Tutorial #14 - Flexbox Basics           https://www.youtube.com/watch?v=R2eqAgR_KlU
