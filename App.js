@@ -83,10 +83,3 @@ const styles = StyleSheet.create({
     flex: 1
   }
 })
-
-// React Native Tutorial #9 - Todo App (part 1)         https://www.youtube.com/watch?v=uLHFPt9B2Os&t=3s
-// React Native Tutorial #10 - Todo App (part 2)        https://www.youtube.com/watch?v=SGEitne8N-Q
-// React Native Tutorial #11 - Todo App (part 3)        https://www.youtube.com/watch?v=LH_SoXiu_Hk
-// React Native Tutorial #12 - Alerts                   https://www.youtube.com/watch?v=oVA9JgTTiT0&t=4s
-// React Native Tutorial #13 - Dismissing the Keyboard  https://www.youtube.com/watch?v=IW-SEiRjUsI
-// React Native Tutorial #14 - Flexbox Basics           https://www.youtube.com/watch?v=R2eqAgR_KlU
